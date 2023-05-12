@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    <title>Athletes Hangman</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://mitchum.blog/wp-content/uploads/2019/05/favicon.png" />
+</head>
+
+<body>
+    <main>
+        <h1>Anime Hangman</h1>
+        <div id="gallows">
+            <img id="hangmanImage" src="hangman0.png" style="padding-left: 70px">
+        </div>
+        <div id="word"></div>
+        <br>
+        <div id="controls">
+            <input type="text" id="guessBox">
+            <button id="guessWordButton" class="button" onclick="guessWord(game)">Guess Word</button>
+            <button id="newGameButton" class="button" onclick="newGame()">New Game</button>
+            <br>
+            <br>
+        </div>
+        <br>
+        <div id="guesses"></div>
+    </main>
+    <script src="main.js"></script>
